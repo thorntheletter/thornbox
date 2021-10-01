@@ -1,0 +1,725 @@
+EESchema Schematic File Version 4
+LIBS:thornboard1.0-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW_Up1
+U 1 1 60E4D32C
+P 2450 2850
+F 0 "SW_Up1" H 2450 3135 50  0000 C CNN
+F 1 "SW_Push" H 2450 3044 50  0000 C CNN
+F 2 "Cherry-Style:Kailh_socket_PG1350_optional" H 2450 3050 50  0001 C CNN
+F 3 "" H 2450 3050 50  0001 C CNN
+	1    2450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_Down1
+U 1 1 60E4D3DC
+P 2300 2350
+F 0 "SW_Down1" H 2300 2635 50  0000 C CNN
+F 1 "SW_Push" H 2300 2544 50  0000 C CNN
+F 2 "Cherry-Style:Kailh_socket_PG1350_optional" H 2300 2550 50  0001 C CNN
+F 3 "" H 2300 2550 50  0001 C CNN
+	1    2300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_Right1
+U 1 1 60E4D40B
+P 3100 2200
+F 0 "SW_Right1" H 3100 2485 50  0000 C CNN
+F 1 "SW_Push" H 3100 2394 50  0000 C CNN
+F 2 "Cherry-Style:Kailh_socket_PG1350_optional" H 3100 2400 50  0001 C CNN
+F 3 "" H 3100 2400 50  0001 C CNN
+	1    3100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_Left1
+U 1 1 60E4D422
+P 1550 2500
+F 0 "SW_Left1" H 1550 2785 50  0000 C CNN
+F 1 "SW_Push" H 1550 2694 50  0000 C CNN
+F 2 "Cherry-Style:Kailh_socket_PG1350_optional" H 1550 2700 50  0001 C CNN
+F 3 "" H 1550 2700 50  0001 C CNN
+	1    1550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_P1
+U 1 1 60E4D515
+P 6500 1150
+F 0 "SW_P1" H 6500 1435 50  0000 C CNN
+F 1 "SW_Push" H 6500 1344 50  0000 C CNN
+F 2 "Cherry-Style:Kailh_socket_PG1350_optional" H 6500 1350 50  0001 C CNN
+F 3 "" H 6500 1350 50  0001 C CNN
+	1    6500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_P2
+U 1 1 60E4D558
+P 7150 1300
+F 0 "SW_P2" H 7150 1585 50  0000 C CNN
+F 1 "SW_Push" H 7150 1494 50  0000 C CNN
+F 2 "Cherry-Style:Kailh_socket_PG1350_optional" H 7150 1500 50  0001 C CNN
+F 3 "" H 7150 1500 50  0001 C CNN
+	1    7150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_P3
+U 1 1 60E4D5B3
+P 7800 1450
+F 0 "SW_P3" H 7800 1735 50  0000 C CNN
+F 1 "SW_Push" H 7800 1644 50  0000 C CNN
+F 2 "Cherry-Style:Kailh_socket_PG1350_optional" H 7800 1650 50  0001 C CNN
+F 3 "" H 7800 1650 50  0001 C CNN
+	1    7800 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_P4
+U 1 1 60E4D614
+P 8500 1600
+F 0 "SW_P4" H 8500 1885 50  0000 C CNN
+F 1 "SW_Push" H 8500 1794 50  0000 C CNN
+F 2 "Cherry-Style:Kailh_socket_PG1350_optional" H 8500 1800 50  0001 C CNN
+F 3 "" H 8500 1800 50  0001 C CNN
+	1    8500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_K1
+U 1 1 60E4D63D
+P 6500 3300
+F 0 "SW_K1" H 6500 3585 50  0000 C CNN
+F 1 "SW_Push" H 6500 3494 50  0000 C CNN
+F 2 "Cherry-Style:Kailh_socket_PG1350_optional" H 6500 3500 50  0001 C CNN
+F 3 "" H 6500 3500 50  0001 C CNN
+	1    6500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_K2
+U 1 1 60E4D66E
+P 7150 3100
+F 0 "SW_K2" H 7150 3385 50  0000 C CNN
+F 1 "SW_Push" H 7150 3294 50  0000 C CNN
+F 2 "Cherry-Style:Kailh_socket_PG1350_optional" H 7150 3300 50  0001 C CNN
+F 3 "" H 7150 3300 50  0001 C CNN
+	1    7150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_K3
+U 1 1 60E4D69F
+P 7850 2900
+F 0 "SW_K3" H 7850 3185 50  0000 C CNN
+F 1 "SW_Push" H 7850 3094 50  0000 C CNN
+F 2 "Cherry-Style:Kailh_socket_PG1350_optional" H 7850 3100 50  0001 C CNN
+F 3 "" H 7850 3100 50  0001 C CNN
+	1    7850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_K4
+U 1 1 60E4D6D8
+P 8550 2600
+F 0 "SW_K4" H 8550 2885 50  0000 C CNN
+F 1 "SW_Push" H 8550 2794 50  0000 C CNN
+F 2 "Cherry-Style:Kailh_socket_PG1350_optional" H 8550 2800 50  0001 C CNN
+F 3 "" H 8550 2800 50  0001 C CNN
+	1    8550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J_9
+U 1 1 60E4D8EA
+P 4600 1550
+F 0 "J_9" H 4650 2667 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 4650 2576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 4600 1550 50  0001 C CNN
+F 3 "~" H 4600 1550 50  0001 C CNN
+	1    4600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 USB1
+U 1 1 60E4DAB0
+P 1700 4950
+F 0 "USB1" H 1805 5817 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1805 5726 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 1850 4950 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1850 4950 50  0001 C CNN
+	1    1700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_Select1
+U 1 1 60E4E5B7
+P 1700 1250
+F 0 "SW_Select1" H 1700 1535 50  0000 C CNN
+F 1 "SW_Push" H 1700 1444 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1700 1450 50  0001 C CNN
+F 3 "" H 1700 1450 50  0001 C CNN
+	1    1700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_Home1
+U 1 1 60E4E5BE
+P 2400 1100
+F 0 "SW_Home1" H 2400 1385 50  0000 C CNN
+F 1 "SW_Push" H 2400 1294 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 2400 1300 50  0001 C CNN
+F 3 "" H 2400 1300 50  0001 C CNN
+	1    2400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_Start1
+U 1 1 60E4E5C5
+P 3100 950
+F 0 "SW_Start1" H 3100 1235 50  0000 C CNN
+F 1 "SW_Push" H 3100 1144 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3100 1150 50  0001 C CNN
+F 3 "" H 3100 1150 50  0001 C CNN
+	1    3100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J_6-1
+U 1 1 60E4EA6B
+P 3400 4700
+F 0 "J_6-1" H 3506 4978 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 3506 4887 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3400 4700 50  0001 C CNN
+F 3 "~" H 3400 4700 50  0001 C CNN
+	1    3400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J_4
+U 1 1 60E4EBB9
+P 6700 4750
+F 0 "J_4" H 6806 5028 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 6806 4937 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 6700 4750 50  0001 C CNN
+F 3 "~" H 6700 4750 50  0001 C CNN
+	1    6700 4750
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	2100 5450 2200 5550
+$Comp
+L Switch:SW_Push SW_L3
+U 1 1 60E4EF6F
+P 9150 5050
+F 0 "SW_L3" H 9150 5335 50  0000 C CNN
+F 1 "SW_Push" H 9150 5244 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 9150 5250 50  0001 C CNN
+F 3 "" H 9150 5250 50  0001 C CNN
+	1    9150 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_TPKEY1
+U 1 1 60E4EF76
+P 9800 4850
+F 0 "SW_TPKEY1" H 9800 5135 50  0000 C CNN
+F 1 "SW_Push" H 9800 5044 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 9800 5050 50  0001 C CNN
+F 3 "" H 9800 5050 50  0001 C CNN
+	1    9800 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0101
+U 1 1 60E502D4
+P 9350 5400
+F 0 "#PWR0101" H 9350 5150 50  0001 C CNN
+F 1 "Earth" H 9350 5250 50  0001 C CNN
+F 2 "" H 9350 5400 50  0001 C CNN
+F 3 "~" H 9350 5400 50  0001 C CNN
+	1    9350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_R3
+U 1 1 60E4EF68
+P 8500 5250
+F 0 "SW_R3" H 8500 5535 50  0000 C CNN
+F 1 "SW_Push" H 8500 5444 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 8500 5450 50  0001 C CNN
+F 3 "" H 8500 5450 50  0001 C CNN
+	1    8500 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4950 6900 5400
+Wire Wire Line
+	6900 5400 8300 5400
+Connection ~ 9350 5400
+Wire Wire Line
+	3600 4600 3700 4600
+Wire Wire Line
+	3700 4600 3700 4350
+Wire Wire Line
+	3700 4350 2450 4350
+Wire Wire Line
+	3600 4700 3950 4700
+Wire Wire Line
+	3950 4700 3950 4150
+Wire Wire Line
+	3950 4150 2800 4150
+Wire Wire Line
+	2800 4150 2800 4850
+Wire Wire Line
+	2800 4850 2450 4850
+Wire Wire Line
+	3600 4800 3950 4800
+Wire Wire Line
+	3950 4800 3950 5050
+Wire Wire Line
+	3850 1150 3850 2850
+Wire Wire Line
+	3850 2850 2650 2850
+Wire Wire Line
+	4900 900  3600 900 
+Wire Wire Line
+	3600 900  3600 1750
+Wire Wire Line
+	3600 1750 2500 1750
+Wire Wire Line
+	2500 1750 2500 2350
+Wire Wire Line
+	4000 1250 4000 2200
+Wire Wire Line
+	4000 2200 3300 2200
+Wire Wire Line
+	5050 1250 5050 850 
+Wire Wire Line
+	5050 850  3500 850 
+Wire Wire Line
+	3500 850  3500 1600
+Wire Wire Line
+	3500 1600 1750 1600
+Wire Wire Line
+	1750 1600 1750 2500
+Wire Wire Line
+	1900 1350 1900 1250
+Wire Wire Line
+	5100 1350 5100 800 
+Wire Wire Line
+	5100 800  3450 800 
+Wire Wire Line
+	3450 800  3450 1100
+Wire Wire Line
+	3450 1100 2600 1100
+Wire Wire Line
+	3300 1450 3300 950 
+Wire Wire Line
+	6300 1450 6300 1150
+Wire Wire Line
+	4150 1550 4150 700 
+Wire Wire Line
+	4150 700  6950 700 
+Wire Wire Line
+	6950 700  6950 1300
+Wire Wire Line
+	7600 1550 7600 1450
+Wire Wire Line
+	4400 1650 4400 1600
+Wire Wire Line
+	4400 1600 4100 1600
+Wire Wire Line
+	4100 1600 4100 650 
+Wire Wire Line
+	4100 650  8300 650 
+Wire Wire Line
+	8300 650  8300 1600
+$Comp
+L power:Earth #PWR0102
+U 1 1 60E667BD
+P 5400 1650
+F 0 "#PWR0102" H 5400 1400 50  0001 C CNN
+F 1 "Earth" H 5400 1500 50  0001 C CNN
+F 2 "" H 5400 1650 50  0001 C CNN
+F 3 "~" H 5400 1650 50  0001 C CNN
+	1    5400 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1750 4250 3300
+Wire Wire Line
+	4250 3300 6300 3300
+Wire Wire Line
+	6950 1750 6950 3100
+Wire Wire Line
+	4400 1850 4350 1850
+Wire Wire Line
+	4350 1850 4350 2550
+Wire Wire Line
+	4350 2550 7650 2550
+Wire Wire Line
+	7650 2550 7650 2900
+Wire Wire Line
+	8350 1850 8350 2600
+$Comp
+L power:Earth #PWR0103
+U 1 1 60E704BB
+P 5400 1950
+F 0 "#PWR0103" H 5400 1700 50  0001 C CNN
+F 1 "Earth" H 5400 1800 50  0001 C CNN
+F 2 "" H 5400 1950 50  0001 C CNN
+F 3 "~" H 5400 1950 50  0001 C CNN
+	1    5400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0104
+U 1 1 60E7051F
+P 4100 1950
+F 0 "#PWR0104" H 4100 1700 50  0001 C CNN
+F 1 "Earth" H 4100 1800 50  0001 C CNN
+F 2 "" H 4100 1950 50  0001 C CNN
+F 3 "~" H 4100 1950 50  0001 C CNN
+	1    4100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0105
+U 1 1 60E740CB
+P 8900 1700
+F 0 "#PWR0105" H 8900 1450 50  0001 C CNN
+F 1 "Earth" H 8900 1550 50  0001 C CNN
+F 2 "" H 8900 1700 50  0001 C CNN
+F 3 "~" H 8900 1700 50  0001 C CNN
+	1    8900 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1150 6700 1700
+Wire Wire Line
+	6700 1700 7350 1700
+Wire Wire Line
+	8000 1450 8000 1700
+Connection ~ 8000 1700
+Wire Wire Line
+	8000 1700 8700 1700
+Wire Wire Line
+	8700 1600 8700 1700
+Connection ~ 8700 1700
+Wire Wire Line
+	8700 1700 8900 1700
+Wire Wire Line
+	7350 1300 7350 1700
+Connection ~ 7350 1700
+Wire Wire Line
+	7350 1700 8000 1700
+$Comp
+L power:Earth #PWR0106
+U 1 1 60E7C385
+P 8900 3350
+F 0 "#PWR0106" H 8900 3100 50  0001 C CNN
+F 1 "Earth" H 8900 3200 50  0001 C CNN
+F 2 "" H 8900 3350 50  0001 C CNN
+F 3 "~" H 8900 3350 50  0001 C CNN
+	1    8900 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3300 7350 3300
+Wire Wire Line
+	8900 3300 8900 3350
+Wire Wire Line
+	7350 3100 7350 3300
+Connection ~ 7350 3300
+Wire Wire Line
+	7350 3300 8050 3300
+Wire Wire Line
+	8050 2900 8050 3300
+Connection ~ 8050 3300
+Wire Wire Line
+	8050 3300 8750 3300
+Wire Wire Line
+	8750 2600 8750 3300
+Connection ~ 8750 3300
+Wire Wire Line
+	8750 3300 8900 3300
+$Comp
+L power:Earth #PWR0107
+U 1 1 60E87DF0
+P 1000 1450
+F 0 "#PWR0107" H 1000 1200 50  0001 C CNN
+F 1 "Earth" H 1000 1300 50  0001 C CNN
+F 2 "" H 1000 1450 50  0001 C CNN
+F 3 "~" H 1000 1450 50  0001 C CNN
+	1    1000 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 950  2900 1450
+Wire Wire Line
+	2900 1450 2200 1450
+Wire Wire Line
+	2200 1100 2200 1450
+Connection ~ 2200 1450
+Wire Wire Line
+	2200 1450 1500 1450
+Wire Wire Line
+	1500 1250 1500 1450
+Connection ~ 1500 1450
+Wire Wire Line
+	1500 1450 1000 1450
+$Comp
+L power:Earth #PWR0108
+U 1 1 60E901F4
+P 1250 3150
+F 0 "#PWR0108" H 1250 2900 50  0001 C CNN
+F 1 "Earth" H 1250 3000 50  0001 C CNN
+F 2 "" H 1250 3150 50  0001 C CNN
+F 3 "~" H 1250 3150 50  0001 C CNN
+	1    1250 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3150 2250 3150
+Wire Wire Line
+	2250 2850 2250 3150
+Connection ~ 2250 3150
+Wire Wire Line
+	2250 3150 2100 3150
+Wire Wire Line
+	2100 2350 2100 3150
+Connection ~ 2100 3150
+Wire Wire Line
+	1350 2500 1350 3150
+Wire Wire Line
+	1250 3150 1350 3150
+Connection ~ 1350 3150
+Wire Wire Line
+	1350 3150 2100 3150
+$Comp
+L power:Earth #PWR0109
+U 1 1 60E63464
+P 3300 5850
+F 0 "#PWR0109" H 3300 5600 50  0001 C CNN
+F 1 "Earth" H 3300 5700 50  0001 C CNN
+F 2 "" H 3300 5850 50  0001 C CNN
+F 3 "~" H 3300 5850 50  0001 C CNN
+	1    3300 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4900 3600 5850
+Wire Wire Line
+	3600 5850 3300 5850
+Wire Wire Line
+	3300 5850 1700 5850
+Connection ~ 3300 5850
+Wire Wire Line
+	6900 4650 9400 4650
+Wire Wire Line
+	9400 4650 9400 4450
+Wire Wire Line
+	9400 4450 10000 4450
+Wire Wire Line
+	10000 4450 10000 4850
+Wire Wire Line
+	9600 4850 9600 5400
+Wire Wire Line
+	9600 5400 9350 5400
+Wire Wire Line
+	9350 4750 9350 5050
+Wire Wire Line
+	8700 4850 8700 5250
+Wire Wire Line
+	8300 5250 8300 5400
+Connection ~ 8300 5400
+Wire Wire Line
+	8950 5050 8950 5400
+Connection ~ 8950 5400
+Wire Wire Line
+	8950 5400 9350 5400
+Wire Wire Line
+	6900 4750 9350 4750
+Wire Wire Line
+	6900 4850 8700 4850
+Wire Wire Line
+	8300 5400 8950 5400
+Connection ~ 1700 5850
+Wire Wire Line
+	2300 5050 2450 5050
+Wire Wire Line
+	2450 4850 2450 4950
+Wire Wire Line
+	2450 4950 2300 4950
+Connection ~ 2450 4850
+Wire Wire Line
+	2450 4850 2300 4850
+Wire Wire Line
+	2450 5050 2450 5150
+Wire Wire Line
+	2450 5150 2300 5150
+Connection ~ 2450 5050
+Wire Wire Line
+	2450 5050 3950 5050
+Wire Wire Line
+	2900 2200 2900 3150
+Wire Wire Line
+	2450 4350 2450 4550
+Wire Wire Line
+	2450 4350 2300 4350
+Connection ~ 2450 4350
+Wire Wire Line
+	2450 4650 2300 4650
+Wire Wire Line
+	2300 4650 2300 4550
+Connection ~ 2300 4650
+Wire Wire Line
+	2300 4550 2450 4550
+Connection ~ 2300 4550
+Connection ~ 2450 4550
+Wire Wire Line
+	2450 4550 2450 4650
+Wire Wire Line
+	2300 4350 2300 4550
+Connection ~ 2300 4350
+Wire Wire Line
+	1400 5850 1700 5850
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60E94F87
+P 5150 4050
+F 0 "H4" H 5250 4096 50  0000 L CNN
+F 1 "MountingHole" H 5250 4005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5150 4050 50  0001 C CNN
+F 3 "~" H 5150 4050 50  0001 C CNN
+	1    5150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60E95052
+P 4750 3900
+F 0 "H2" H 4850 3946 50  0000 L CNN
+F 1 "MountingHole" H 4850 3855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 4750 3900 50  0001 C CNN
+F 3 "~" H 4750 3900 50  0001 C CNN
+	1    4750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60E95190
+P 4450 4200
+F 0 "H1" H 4550 4246 50  0000 L CNN
+F 1 "MountingHole" H 4550 4155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 4450 4200 50  0001 C CNN
+F 3 "~" H 4450 4200 50  0001 C CNN
+	1    4450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60E9525D
+P 5100 4550
+F 0 "H3" H 5200 4596 50  0000 L CNN
+F 1 "MountingHole" H 5200 4505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5100 4550 50  0001 C CNN
+F 3 "~" H 5100 4550 50  0001 C CNN
+	1    5100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60E9530D
+P 5650 3800
+F 0 "H5" H 5750 3846 50  0000 L CNN
+F 1 "MountingHole" H 5750 3755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5650 3800 50  0001 C CNN
+F 3 "~" H 5650 3800 50  0001 C CNN
+	1    5650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60E953D6
+P 5900 4350
+F 0 "H6" H 6000 4396 50  0000 L CNN
+F 1 "MountingHole" H 6000 4305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 5900 4350 50  0001 C CNN
+F 3 "~" H 5900 4350 50  0001 C CNN
+	1    5900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO1
+U 1 1 60E954DE
+P 5100 5800
+F 0 "#LOGO1" H 5100 6300 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 5100 5400 50  0001 C CNN
+F 2 "" H 5100 5800 50  0001 C CNN
+F 3 "~" H 5100 5800 50  0001 C CNN
+	1    5100 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1150 4900 900 
+Wire Wire Line
+	3850 1150 4400 1150
+Wire Wire Line
+	4000 1250 4400 1250
+Wire Wire Line
+	1900 1350 4400 1350
+Wire Wire Line
+	3300 1450 4400 1450
+Wire Wire Line
+	4150 1550 4400 1550
+Wire Wire Line
+	4250 1750 4400 1750
+Wire Wire Line
+	4100 1950 4400 1950
+Wire Wire Line
+	4900 1250 5050 1250
+Wire Wire Line
+	4900 1350 5100 1350
+Wire Wire Line
+	4900 1450 6300 1450
+Wire Wire Line
+	4900 1550 7600 1550
+Wire Wire Line
+	4900 1650 5400 1650
+Wire Wire Line
+	4900 1750 6950 1750
+Wire Wire Line
+	4900 1850 8350 1850
+Wire Wire Line
+	4900 1950 5400 1950
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 60F77F48
+P 6200 5500
+F 0 "H7" H 6300 5546 50  0000 L CNN
+F 1 "MountingHole" H 6300 5455 50  0000 L CNN
+F 2 "TheThorn:thethorn5" H 6200 5500 50  0001 C CNN
+F 3 "~" H 6200 5500 50  0001 C CNN
+	1    6200 5500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
